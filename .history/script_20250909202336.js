@@ -1,0 +1,14 @@
+function counter(){
+    var count = 0;
+    return function(){
+        count++;
+        console.log(count);
+    }
+}
+counter();
+console.log(counter());
+// var sent = counter();
+// sent(); 
+// sent(); 
+// sent(); 
+
