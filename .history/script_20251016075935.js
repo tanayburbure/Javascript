@@ -134,29 +134,10 @@
 // let ans = sum(40,49);
 // console.log(ans);
 
-
-// function addition(n){
-//     let ans = 0;
-//     for(i=1;i<=n;i++){
-//         ans = ans + i;
-//     }
-//     return ans
-// }
-// console.log(addition(20))
-
-// const fs = require("fs")
-// const content = fs.readFileSync("a.txt","utf-8")
-// console.log(content)
-
-
-// let ans = 0 
-// for (i=0;i<100000;i++){
-//     ans = ans+i
-// }
-// console.log(ans)
-
-
-// const fs = require("fs")
-// const content= fs.readFileSync("a.txt","utf-8")
-// console.log(content)
-
+function addition(n){
+    let ans=0;
+    for(let i=1;i<=n;i++){
+        ans = ans + i;
+    }
+    return ans
+}

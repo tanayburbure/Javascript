@@ -144,19 +144,7 @@
 // }
 // console.log(addition(20))
 
-// const fs = require("fs")
-// const content = fs.readFileSync("a.txt","utf-8")
-// console.log(content)
 
-
-// let ans = 0 
-// for (i=0;i<100000;i++){
-//     ans = ans+i
-// }
-// console.log(ans)
-
-
-// const fs = require("fs")
-// const content= fs.readFileSync("a.txt","utf-8")
-// console.log(content)
-
+const fs = require("fs");
+const content = fs.readFile("a.txt","utf-9")
+console.log(content)

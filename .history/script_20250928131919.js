@@ -45,11 +45,7 @@
 // sum(2,5)
 // sum(4,"ahhsdhkjsahbf")
 
-// function sum(n){
-//     return n*(n+1)
-// }
-// let ans = sum(50)
-// console.log(ans)
+function sum()
 
 
 // function canVote(age) {
@@ -125,38 +121,4 @@
 
 
 //         Asynchronussssssssss JS
-
-// normal code 
-
-// function sum(a,b){
-//     return a + b;
-// }
-// let ans = sum(40,49);
-// console.log(ans);
-
-
-// function addition(n){
-//     let ans = 0;
-//     for(i=1;i<=n;i++){
-//         ans = ans + i;
-//     }
-//     return ans
-// }
-// console.log(addition(20))
-
-// const fs = require("fs")
-// const content = fs.readFileSync("a.txt","utf-8")
-// console.log(content)
-
-
-// let ans = 0 
-// for (i=0;i<100000;i++){
-//     ans = ans+i
-// }
-// console.log(ans)
-
-
-// const fs = require("fs")
-// const content= fs.readFileSync("a.txt","utf-8")
-// console.log(content)
 

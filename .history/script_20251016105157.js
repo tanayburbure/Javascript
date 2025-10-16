@@ -149,14 +149,5 @@
 // console.log(content)
 
 
-// let ans = 0 
-// for (i=0;i<100000;i++){
-//     ans = ans+i
-// }
-// console.log(ans)
-
-
-// const fs = require("fs")
-// const content= fs.readFileSync("a.txt","utf-8")
-// console.log(content)
-
+let ans = 0 
+for (i)
