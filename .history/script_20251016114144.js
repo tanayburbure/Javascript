@@ -157,6 +157,10 @@
 
 
 // const fs = require("fs")
+// const content= fs.readFileSync("a.txt","utf-8")
+// console.log(content)
+
+// const fs = require("fs")
 // function afterreadfile(err,content){
 //     console.log(content)
 // }
@@ -183,56 +187,8 @@
 // rect.paint()
 
 
-// class circle{
-//     constructor(radius,color){
-//         this.radius = radius;
-//         this.color = color;
-//     }
-//     area(){
-//         const area = 2 * this.radius * Math.PI
-//         return area 
-//     }
-//     paint(){
-//         console.log(`The color of the rectangle is ${this.color}`)
-//     }
-// }
-
-// const cir = new circle(20,"red")
-// console.log(cir.area());
-// cir.paint()
-
-
-// class Shape{
-//     constructor(color){
-//         this.color = color ;
-//     }
-//     paint(){
-//         console.log(`The color of the painting is ${this.color}`)
-//     }
-//     area(){
-//         throw new Error("The area of the shape must be included in subsystem");
-//     }
-//     getdiscription(){
-//         return ` A shape with color ${this.color}`
-//     }
-// }
-
-// class rectangle extends Shape{
-//     constructor(width,height,color){
-//         this.width = width;
-//         this.height = height;
-//         super(color);
-//     }
-//     area(){
-//         return this.width * this.height
-//     }
-//     getdiscription(){
-//         return`The rectangle with width of ${this.width}, and height of ${this.height}, and it's color is ${this.color}`
-//     }
-// }
-
-// const rect = new Shape(20,20,"red")
-// console.log(rect.area())
-
-
-
+class rectangle{
+    constructor(width,height,color){
+        
+    }
+}

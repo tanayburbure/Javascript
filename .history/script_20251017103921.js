@@ -202,37 +202,33 @@
 // cir.paint()
 
 
-// class Shape{
-//     constructor(color){
-//         this.color = color ;
-//     }
-//     paint(){
-//         console.log(`The color of the painting is ${this.color}`)
-//     }
-//     area(){
-//         throw new Error("The area of the shape must be included in subsystem");
-//     }
-//     getdiscription(){
-//         return ` A shape with color ${this.color}`
-//     }
-// }
+class Shape{
+    constructor(color){
+        this.color = color ;
+    }
+    paint(){
+        console.log(`The color of the painting is ${this.color}`)
+    }
+    area(){
+        throw new Error("The area of the shape must be included in subsystem");
+    }
+    getdiscription(){
+        return ` A shape with color ${this.color}`
+    }
+}
 
-// class rectangle extends Shape{
-//     constructor(width,height,color){
-//         this.width = width;
-//         this.height = height;
-//         super(color);
-//     }
-//     area(){
-//         return this.width * this.height
-//     }
-//     getdiscription(){
-//         return`The rectangle with width of ${this.width}, and height of ${this.height}, and it's color is ${this.color}`
-//     }
-// }
+class rectangle extends Shape{
+    constructor(width,height,color){
+        this.width = width;
+        this.height = height;
+        super(color);
+    }
+    area(){
+        return this.width * this.height
+    }
+    getdiscription(){
+        return`The rectangle with width of ${this.width}, and height of ${this.height}, and it's color is ${this.color}`
+    }
+}
 
-// const rect = new Shape(20,20,"red")
-// console.log(rect.area())
-
-
-
+const rect = new rectangle
