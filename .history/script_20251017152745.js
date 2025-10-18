@@ -334,26 +334,8 @@
 
 
 
-// const fs = require("fs")
+const fs = require("fs")
 
-// function readfilepromisified(filepath){
-//     return new Promise(function (resolve,reject){
-//         fs.readFile(filepath,"utf-8",function(err,data){
-//             if(err){
-//                 console.log("The error occured while reading the file")
-//             }
-//             else{
-//                 console.log(data)
-//             }
-//         })
-//     })
-// }
-
-// function ondone(data){
-//     console.log(data)
-// }
-// function onerror(err){
-//     console.log("Error." + err)
-// }
-
-// readfilepromisified("ah.txt").then(ondone).catch(onerror)
+function readfilepromisified(){
+    
+}

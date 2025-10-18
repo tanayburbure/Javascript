@@ -302,58 +302,9 @@
 //     .then (function(){
 //         console.log("Hello There")
 //     })
-
-
-// const fs = require("fs")
-// function afterdone(err,data){
-//     if(err){
-//         console.log("error while reading the data")
-//     }
-//     else{
-//         console.log(data)
-//     }
-// }
-// fs.readFile("a.txt","utf-8",afterdone)
-
-
-
-
-// const fs = require("fs")
-
-// function afterdone(err,data){
-//     if(err){
-//         console.log("Error detected while reading the file")
-//     }
-//     else{
-//         console.log(data)
-//     }
-// }
-
-// fs.readFile("a.txt","utf-8",afterdone)
-
-
-
-
-// const fs = require("fs")
-
-// function readfilepromisified(filepath){
-//     return new Promise(function (resolve,reject){
-//         fs.readFile(filepath,"utf-8",function(err,data){
-//             if(err){
-//                 console.log("The error occured while reading the file")
-//             }
-//             else{
-//                 console.log(data)
-//             }
-//         })
-//     })
-// }
-
-// function ondone(data){
-//     console.log(data)
-// }
-// function onerror(err){
-//     console.log("Error." + err)
-// }
-
-// readfilepromisified("ah.txt").then(ondone).catch(onerror)
+const fs = require("fs")
+function afterdone(err,data){
+    if(err){
+        
+    }
+}
